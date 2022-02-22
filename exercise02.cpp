@@ -31,3 +31,13 @@ int main() {
 }
 
 // Implement the Volume() function here
+int volume(int height, int width, int length)
+{
+  int box1Height, box1Width, box1Length;
+    int box2Height, box2Width, box2Length;
+    int totalVolume, totalSurface;
+  
+  totalVolume = (box1Height * box1Width * box1Length) + (box2Height * box2Width * box2Length);
+
+  return totalVolume;
+}
